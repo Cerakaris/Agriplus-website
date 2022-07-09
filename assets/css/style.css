@@ -92,7 +92,7 @@ a:hover{
     text-align: center;
     padding: 0 15em 2em 15em;
 }  
-/* .popular{
+.popular{
     display: flex;
     justify-content: space-around;
     padding: 0 0 7em 8em;
@@ -130,7 +130,7 @@ a:hover{
     border-bottom: 2px solid grey;
     box-shadow: 1px 3px 8px grey;
 }
-.comments{
+/* .comments{
     display: flex;
     justify-content: space-around;
 }
@@ -147,7 +147,7 @@ a:hover{
 #rebecca, #john, #lavington{
     width: 10%;
     height: auto;
-} */
+}  */
 
 
 
