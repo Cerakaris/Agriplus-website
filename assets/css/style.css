@@ -1,0 +1,57 @@
+body{
+    margin: auto;
+}
+.navbar{
+    background-color: black;
+    color: white; 
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    list-style: none; 
+}
+.nav-links>ul>li{
+    display: inline;
+    padding-right: 3em;
+} 
+.other-links>ul>li{
+    display: inline;
+    padding-left: em; 
+} 
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1em;
+    color: white;
+}
+.nav-links{
+    display: inline;
+
+}
+.button{
+    background-color: #ED661F;
+    text-align: center;
+    padding: 10px;
+    border: 0;
+}
+/* .explore{
+    background-image: url(assets/images/background-wheat.png);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 120%;   
+}
+#veggies{
+    height: 100%;
+    width: 70%;
+}
+.numbers{
+    display: flexbox;
+    flex-direction: row;
+    justify-content: space-around;
+} */
+
+
+
