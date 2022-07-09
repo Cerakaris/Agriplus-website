@@ -4,17 +4,18 @@ body{
 .navbar{
     background-color: black;
     color: white; 
-    padding-bottom: 10px;
+    padding: 0 2em 0.7em 2em;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+    
 }
 ul{
     list-style: none; 
 }
 .nav-links>ul>li{
     display: inline;
-    padding-right: 3em;
+    padding: 0 3em 0 3em;
 } 
 .other-links>ul>li{
     display: inline;
@@ -36,22 +37,27 @@ a{
     padding: 10px;
     border: 0;
 }
-/* .explore{
-    background-image: url(assets/images/background-wheat.png);
+.explore{
+    background-image:url("images/background-wheat.png");
+    background-position: 80% 80%;
+    background-size: contain;
     padding: 30px;
     display: flex;
     justify-content: space-around;
-    width: 120%;   
+    height: 100%;
+    width: 100%; 
 }
 #veggies{
     height: 100%;
-    width: 70%;
+    width: 100%;
 }
-.numbers{
-    display: flexbox;
-    flex-direction: row;
+/* .numbers{
+    display: flex;
+    align-items: center;
     justify-content: space-around;
-} */
+    box-sizing: content-box;
+    box-shadow: ;
+}  */
 
 
 
