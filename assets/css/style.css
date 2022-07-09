@@ -69,31 +69,85 @@ a:hover{
     left: 13em; 
     background-color: white;
 } 
-/* .why-exist{
+.why-exist{
     display: flex;
     justify-content: space-around;
-    padding: 0 0 7em 4em; 
+    padding: 3em 0 7em 4em;
     display: flex;
-    align-items: center;
-    justify-content: space-around; 
+    justify-content: space-around;
 }
 #why{
-    padding: 1em 0 3em 0;
+    padding: 1em 0 3em 4em;
 }
 #cust-serv-img{
     height: auto;
     max-width: 100%;
 } 
-h2{
+/* h2{
     border-bottom: 2px solid #ED661F;
 
-}
+} */
 .categories{
     display: block;
     text-align: center;
     padding: 0 15em 2em 15em;
-}  */
+}  
+/* .popular{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 7em 8em;
+    display: flex;
+    justify-content: space-around;
+} 
+#carrots1, #cereals1, #fish1, #kales1{
+    height: auto;
+    width: 80%;
+}
+#heading1, #heading2{
+    padding: 0 0 0 8em;
+}
+.newest{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 0 8em;
+    display: flex;
+    justify-content: space-around;
+}
+#chicken1, #rice1, #mursik1, #tomatoes1{
+    height: auto;
+    width: 80%;
+}
+#arrow{
+    width: 3%;
+    height: auto;
+}
+.see{
+    color: black;
+    display: block;
+    text-align: right;
+}
+.line{
+    border-bottom: 2px solid grey;
+    box-shadow: 1px 3px 8px grey;
+}
+.comments{
+    display: flex;
+    justify-content: space-around;
+}
+.star{
+    display: inline;
+}
+#star1, #star2, #star3, #star4, #star5, #star6{
+    width: 1.5em;
+    height: auto;
+}
+.comments{
 
+}
+#rebecca, #john, #lavington{
+    width: 10%;
+    height: auto;
+} */
 
 
 
