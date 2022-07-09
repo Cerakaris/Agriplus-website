@@ -27,6 +27,9 @@ a{
     font-size: 1em;
     color: white;
 }
+a:hover{
+    border-bottom: 2px solid #ED661F;
+}
 .nav-links{
     display: inline;
 
@@ -39,25 +42,60 @@ a{
 }
 .explore{
     background-image:url("images/background-wheat.png");
-    background-position: 80% 80%;
     background-size: contain;
-    padding: 30px;
+    padding: 3em 0 7em 4em;
     display: flex;
     justify-content: space-around;
-    height: 100%;
-    width: 100%; 
+}
+ .intro{
+    padding: 3em 0 7em 4em ;
 }
 #veggies{
-    height: 100%;
+    height: 60%;
     width: 100%;
-}
-/* .numbers{
+}  
+.numbers{
     display: flex;
     align-items: center;
     justify-content: space-around;
     box-sizing: content-box;
-    box-shadow: ;
+    box-shadow: 1px 3px 7px grey;
+    width: 60%;
+    padding: 2.5em;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: -9em;
+    left: 13em; 
+    background-color: white;
+} 
+/* .why-exist{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 0 7em 4em; 
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+#why{
+    padding: 1em 0 3em 0;
+}
+#cust-serv-img{
+    height: auto;
+    max-width: 100%;
+} 
+h2{
+    border-bottom: 2px solid #ED661F;
+
+}
+.categories{
+    display: block;
+    text-align: center;
+    padding: 0 15em 2em 15em;
 }  */
+
+
+
 
 
 
