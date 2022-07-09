@@ -130,9 +130,15 @@ a:hover{
     border-bottom: 2px solid grey;
     box-shadow: 1px 3px 8px grey;
 }
-/* .comments{
+.say{
+    padding: 1em 0 1em 8em;
+}
+.comments{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 1em 0em 2em 8em;  
+    font-weight: 700;
+    font-size: larger;
 }
 .star{
     display: inline;
@@ -141,13 +147,20 @@ a:hover{
     width: 1.5em;
     height: auto;
 }
-.comments{
-
-}
 #rebecca, #john, #lavington{
     width: 10%;
-    height: auto;
-}  */
+    height: 10%;
+    padding: 1em 1em 0 1em;
+} 
+#rebecca-m, #john-m, #lavington-m{
+    display: flex;
+}
+#comment1, #comment2, #comment3{
+    box-shadow: 1px 5px 5px grey;
+    padding: 1em 3em 1em 1em ;
+    margin: 0 2em 0 0;
+}
+
 
 
 
