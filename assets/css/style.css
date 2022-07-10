@@ -95,13 +95,16 @@ a{
 .popular{
     display: flex;
     justify-content: space-around;
-    padding: 0 0 7em 8em;
+    padding: 0 0 7em 6em;
     display: flex;
     justify-content: space-around;
 } 
 #carrots1, #cereals1, #fish1, #kales1{
     height: auto;
-    width: 80%;
+    width: 20em;
+}
+.price {
+    font-weight: 600;
 }
 #heading1, #heading2{
     padding: 0 0 0 8em;
@@ -116,6 +119,12 @@ a{
 #chicken1, #rice1, #mursik1, #tomatoes1{
     height: auto;
     width: 80%;
+}
+.product {
+    padding: 1em
+} 
+.product:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 #arrow, #arrow1{
     width: 3%;
@@ -169,6 +178,7 @@ a{
     align-items: center;
     margin-bottom: 4em;
     line-height: 1.7em;
+    padding: 0 2em;
 }
 .underline-link {
     margin: 0em 1em;
