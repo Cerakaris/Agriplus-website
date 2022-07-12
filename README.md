@@ -1,6 +1,6 @@
 # Agriplus-website
 
-#### By Jackline W. Kariuki
+#### By Jackline Waithira Kariuki
 
 
 ## Table of Contents
