@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
     <title>AgriPlus Website</title>
     
 </head>
@@ -24,7 +27,6 @@
             <ul>
                 <li><a href="#Login">Login</a></li>
                 <li><button class="button" ><a href="#Get Started">Get Started</a></button></li>
-                <!-- <li><a href="#Gets Started">Get Started</a></li> -->
             </ul> 
         </div>
     </div>
@@ -38,63 +40,71 @@
             <img id="veggies" src="assets/images/vegetables.png" alt="Vegetables picture">
         </div>
     </div>
-    <div class="numbers">
-        <div>
-            <ul>
-                <li>200+</li>
-                <li>Verified Vendors </li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li>105+</li>
-                <li>Happy Customers </li>
-            </ul>
-        </div>
-        <div>
-            <ul>
-                <li>2000+</li>
-                <li>Nation Wide Customers </li>
-            </ul>
+    <div class="numbers-container">
+        <div class="numbers">
+            <div>
+                <ul>
+                    <li>200+</li>
+                    <li>Verified Vendors </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>105+</li>
+                    <li>Happy Customers </li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>2000+</li>
+                    <li>Nation Wide Customers </li>
+                </ul>
+            </div>
         </div>
     </div>
     <div class="why-exist">
         <div id="why">
-            <h2>Why we exist</h2>
-            <p> We are built to make your work easier. like any online ecommerce, AgriPLus provides a great platform for farmers to reach their customers throughout the country. We have made it easier to shop from anywhere through the platform. </p>
+            <div id="heading1">
+                <span class="heading underline-link">Why we exist</span>
+            </div>
+            <p> We are built to make your work easier. like any online ecommerce, AgriPLus provides a great platform for to reach their customers throughout the country. We have made it easier to shop from anywhere through the platform. </p>
         </div>
         <div class="customer-service">
             <img id="cust-serv-img" src="assets/images/customer.png" alt="Customer service picture">
         </div>
     </div>
     <div class="categories ">
-        <h2>Our Categories of Products</h2>
+        <div id="heading1">
+            <span class="heading underline-link">Our Categories of Products</span>
+        </div>
         <p>We go beyond the borders to ensure you get fresh produce 
-            from the farm. Our customer satisfaction is our mission.</p>
+            <br/>from the farm. Our customer satisfaction is our mission.</p>
     </div>
 
-    <div id="heading1"><h2 >Most Popular</h2></div>
+    <div id="heading1">
+        <span class="heading underline-link">Most Popular</span>
+    </div>
     <div class="popular">
         
-        <div id="carrots">
+        <div class="product">
             <img  id="carrots1" src="assets/images/carrots.png" alt="Fresh Carrots">
-            <h4>Fresh Carrots</h4>
+            <h4 >Fresh Carrots</h4>
             <p>Kinyanjui Farmers Association</p>
             <p class="price">Ksh. 200/Kg</p>
         </div>
-        <div id="cereals">
+        <div class="product">
             <img id="cereals1" src="assets/images/cereals.png" alt="Cereals">
             <h4>Cereals</h4>
             <p>Kenya Cereals Board</p>
             <p class="price">Ksh. 5000/bag</p>
         </div>
-        <div id="fish">
+        <div class="product">
             <img id="fish1" src="assets/images/fish.png" alt="Fish">
             <h4>Fresh Fish/Tilapia</h4>
             <p>Mr. Otieno</p>
             <p class="price">Ksh. 500/Kg</p>
         </div>
-        <div id="kales">
+        <div class="product">
             <img id="kales1" src="assets/images/sukumawiki.png" alt="Sukuma Wiki">
             <h4>Kales/Sukuma Wiki</h4>
             <p>Njoki's Farm</p>
@@ -102,32 +112,34 @@
         </div>
     </div>
 
-    <div id="heading2"><h2>Newest Item</h2></div>
+    <div id="heading1">
+        <span class="heading underline-link">Newest Item</span>
+    </div>
     <div class="newest">
         
-        <div class="chicken">
+        <div class="product">
             <img id="chicken1" src="assets/images/chicken.png" alt="Chicken">
             <h4>Chicken</h4>
             <p>Wafula Farm</p>
             <p class="price">Ksh. 700 </p>
         </div>
-        <div class="rice">
+        <div class="product">
             <img id="rice1" src="assets/images/rice.png" alt="Rice">
             <h4>Ahero/lr Rice</h4>
             <p>Ahero Irrigation Board</p>
             <p class="price">Ksh. 200/Kg </p>
         </div>
-        <div class="mursik">
+        <div class="product">
             <img id="mursik1" src="assets/images/mursik.png" alt="Mursik">
             <h4>Mursik</h4>
             <p>Korir Dairy Farm</p>
             <p class="price">Ksh. 200/Kg </p>
         </div>
-        <div class="tomatoes">
+        <div class="product">
             <img id="tomatoes1" src="assets/images/tomatoes.png" alt="Tomatoes">
             <h4>Fresh Tomatoes</h4>
             <p>T2 Farmers Association</p>
-            <p class="price">Ksh. </p>
+            <p class="price">Ksh. 5000/Crate</p>
         </div>
     </div>
     <div class="read-more">
@@ -137,7 +149,9 @@
     
     <div class="line"></div>
     
-    <div class="say"><h2>What our Esteemed customers has to say about us</h2></div>
+    <div class="say">
+        <h2>What our Esteemed customers has to say about us</h2>
+    </div>
     <div class="comments">
         <div id="comment1">
             <div class="star">
@@ -189,15 +203,15 @@
                     <h2>AgriPlus</h2>
                     <p>Quality farm products through buying and selling</p>
                     <div id="icons">
-                        <img id="twitter" class="icon" src="assets/icons/icons8-twitter-circled (1).svg" alt="Twitter">
-                        <img id="facebook" class="icon" src="assets/icons/icons8-facebook.svg" alt="Facebook">
-                        <img id="instagram" class="icon" src="assets/icons/icons8-instagram-circle.svg" alt="Instagram">
+                        <img id="twitter" class="icon" src="assets/icons/twitter_logo.svg" alt="Twitter">
+                        <img id="facebook" class="icon" src="assets/icons/facebook_logo.svg" alt="Facebook">
+                        <img id="instagram" class="icon" src="assets/icons/instagram_logo.svg" alt="Instagram">
                     </div>
                     <h3>Get the app</h3>
                     <div id="boxes">
                         <div class="store-button">
                             <div>
-                                <img class="store-icon" src="assets/icons/icons8-apple-logo.svg" alt="Apple Brand">
+                                <img class="store-icon" src="assets/icons/apple-brands.svg" alt="Apple Brand">
                             </div>
                             <div >
                                 <p class="store-text">Download on the</p>
